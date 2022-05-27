@@ -6,7 +6,7 @@ import android.view.inputmethod.EditorInfo
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import bellfa.com.edittextsearch.databinding.ActivityMainBinding
-
+///develop 기능
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
