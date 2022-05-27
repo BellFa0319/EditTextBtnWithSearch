@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     //feat 6
     //feat 7
     //feat 8
+    //디벨롭에서 바로
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         //temp5 기능 개발중
