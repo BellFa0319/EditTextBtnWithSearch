@@ -8,6 +8,8 @@ import androidx.databinding.DataBindingUtil
 import bellfa.com.edittextsearch.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
+    //feat 1
+    //feat 2
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         //temp5 기능 개발중
@@ -18,6 +20,7 @@ class MainActivity : AppCompatActivity() {
             binding.edittextSearch.let { binding. textviewResult.setText(binding.edittextSearch.text.toString() + "으로 검색합니다.")}
         }
 
+        //temp2 의 수정
         binding.edittextSearch.setOnEditorActionListener(TextView.OnEditorActionListener { v, actionId, event ->
 
             when(actionId){
@@ -26,6 +29,7 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+        //temp3 기능
 
     }
 }
