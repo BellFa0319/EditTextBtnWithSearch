@@ -10,6 +10,7 @@ import bellfa.com.edittextsearch.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     //feat 1
+    //feat 2
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
