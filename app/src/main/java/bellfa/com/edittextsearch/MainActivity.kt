@@ -6,11 +6,11 @@ import android.view.inputmethod.EditorInfo
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import bellfa.com.edittextsearch.databinding.ActivityMainBinding
-///develop 기능 feat 4 기능 완료 4-1 핫픽스
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
+        //temp5 기능 개발중
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.buttonSearch.setOnClickListener {
