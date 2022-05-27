@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
             binding.edittextSearch.let { binding. textviewResult.setText(binding.edittextSearch.text.toString() + "으로 검색합니다.")}
         }
 
+        //temp2 의 수정
         binding.edittextSearch.setOnEditorActionListener(TextView.OnEditorActionListener { v, actionId, event ->
 
             when(actionId){
